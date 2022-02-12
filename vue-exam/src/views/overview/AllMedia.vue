@@ -12,7 +12,7 @@
           <v-btn text color="primary" style="position: absolute; right: 10px; top: 20px">
             View Older Article
           </v-btn>
-          <v-toolbar color="white" light flat>
+          <v-toolbar flat height="90">
             <v-container fluid>
               <v-row>
                 <v-col md="4" xs="4" sm="4" lg="6">

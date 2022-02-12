@@ -2,7 +2,7 @@
   <v-card>
     <v-card-title>Welcome to Walbro Writer Dashboard</v-card-title>
     <v-card-subtitle>{{ dateAsOf() }}</v-card-subtitle>
-    <v-toolbar color="white accent-4" light flat>
+    <v-toolbar flat>
       <v-btn color="success" dark> CREATE ARTICLE </v-btn>
       <template v-slot:extension>
         <v-tabs v-model="currentItem" slider-color="blue">

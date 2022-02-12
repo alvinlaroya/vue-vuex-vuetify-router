@@ -7,7 +7,6 @@
     >
       <v-app-bar
         absolute
-        color="white"
         elevate-on-scroll
         scroll-target="#scrolling-techniques-7"
       >
@@ -30,7 +29,10 @@
                     <v-list-item-subtitle
                       :class="[
                         'font-weight-bold black--text',
-                        { 'blue--text': currentVersion === item.version },
+                        { 
+                          'blue--text': currentVersion === item.version,
+                          'white--text': $vuetify.theme.dark
+                        },
                       ]"
                       >{{ item.version }}</v-list-item-subtitle
                     >

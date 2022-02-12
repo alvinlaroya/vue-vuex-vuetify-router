@@ -33,9 +33,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.main {
-  background-color: #eee;
-}
-</style>

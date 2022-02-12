@@ -28,7 +28,7 @@
           <v-switch
             style="padding-top: 15px"
             :input-value="active"
-            v-model="darkMode"
+            v-model="$vuetify.theme.dark"
           ></v-switch>
         </v-list-item-action>
 
@@ -48,6 +48,12 @@
 
 <script>
 export default {
+  props: {
+    attrs: {
+      type: Object,
+      default: () => ({}),
+    },
+  },
   data: () => ({
     pushNotification: true,
     darkMode: false,

@@ -3,7 +3,6 @@
     <v-list-item-group active-class="blue--text" style="margin-top: -10px">
       <v-app-bar
         absolute
-        color="white"
         elevate-on-scroll
         scroll-target="#scrolling-techniques-7"
       >
@@ -57,6 +56,7 @@
                         {
                           'black--text': !item.isOpen,
                           'grey--text': item.isOpen,
+                          'white--text': $vuetify.theme.dark
                         },
                       ]"
                       v-html="item.content"

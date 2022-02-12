@@ -10,3 +10,4 @@ Backend > Run node server.js
 ![alt text](images/notification.png)
 ![alt text](images/logs.png)
 ![alt text](images/settings.png)
+![alt text](images/darkmode.png)

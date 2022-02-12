@@ -41,6 +41,7 @@
           nudge-bottom="30"
           :offset-y="true"
           min-width="230"
+          style="z-index: 999999"
         >
           <template v-slot:activator="{ on, attrs }">
             <v-list-item-action v-bind="attrs" v-on="on">
